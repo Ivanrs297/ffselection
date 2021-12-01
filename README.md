@@ -9,7 +9,7 @@ Datasets with high dimensionality represent a challenge to existing learning met
 To build the docker image:
 
 ```sh
-$ docker build -t . .
+$ docker build -t ffselection .
 ```
 
 To start container:
