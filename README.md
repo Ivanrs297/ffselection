@@ -4,6 +4,21 @@ Datasets with high dimensionality represent a challenge to existing learning met
 
 <img src="https://github.com/ivangarcia88/ffselection/blob/assets/0.png" width="500">
 
+# Docker
+
+To build the docker image:
+
+```sh
+$ docker build -t . .
+```
+
+To start container:
+
+```sh
+$ docker run -it ffselection
+```
+
+Then, follow the Compilation instructions as `sudo` with the password for sudo user *docker*: **docker**
 
 # Compilation
 
@@ -53,3 +68,6 @@ Experiments were executed on ubuntu 18.04 using python 3.6
 8. Run MICSelect with every dataset inside ("datasets-input") with the parameters (-y target -x 20)
 9. Move every output ("datasets-output") to folder "datasets-test/x20"
 10. Runs result.py
+
+
+
